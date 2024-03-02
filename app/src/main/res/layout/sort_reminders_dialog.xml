@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/settings_page_margins">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_reminders" />
+
+    <RadioGroup
+        android:id="@+id/sortDialogSortTypeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/sortDialogRadioButtonAlphabetically"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alphabetically_by_name" />
+
+        <RadioButton
+            android:id="@+id/sortDialogRadioButtonYTD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/year_to_date_by_birthday" />
+
+        <RadioButton
+            android:id="@+id/sortDialogRadioButtonUpcomingBirthdays"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/by_upcoming_birthdays" />
+
+        <RadioButton
+            android:id="@+id/sortDialogRadioButtonReminders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/by_upcoming_reminders" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sortDialogRadioButtonDoneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/done" />
+</LinearLayout>

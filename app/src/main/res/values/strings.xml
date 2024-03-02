@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Birthday Reminders</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Birthday Reminders</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="days_before_birthday_to_remind">Days before birthday to remind</string>
+    <string name="edit">Edit</string>
+    <string name="notification_time">Notification time: %d:%s %s</string>
+    <string name="done">Done</string>
+    <string name="jacobstechnologies">JacobsTechnologies</string>
+    <string name="default_birthday_notice_days">Default birthday notice (days)</string>
+    <string name="update_all">Update all</string>
+    <string name="update_all_with_default_values">Update all with default values</string>
+    <string name="update_only_future_reminders">Update only future reminders</string>
+    <string name="save">Save</string>
+    <string name="sync_with_contacts">Sync with contacts</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="alphabetically_by_name">Alphabetically by name</string>
+    <string name="year_to_date_by_birthday">Year-to-date by birthday</string>
+    <string name="by_upcoming_birthdays">By upcoming birthdays</string>
+    <string name="by_upcoming_reminders">By upcoming reminders</string>
+    <string name="sort_reminders">Sort reminders</string>
+    <string name="create_new_reminder">Create new reminder</string>
+    <string name="search_reminders">Search reminders</string>
+    <string name="back">Back</string>
+    <string name="reminders">Reminders</string>
+    <string name="delete_reminder">Delete reminder</string>
+</resources>

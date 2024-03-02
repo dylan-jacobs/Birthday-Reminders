@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BirthdayReminders" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textViewStyle">@style/TextViewStyleDefault</item>
+    </style>
+
+    <style name="TextViewStyleDefault" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/settings_text_view_size</item>
+        <item name="android:layout_margin">@dimen/settings_page_margins</item>
+    </style>
+
+    <drawable name="cake_icon">@drawable/cake_icon_light</drawable>
+    <drawable name="timer_icon">@drawable/reminder_icon_light</drawable>
+    <drawable name="sort_icon">@drawable/sort_icon_light</drawable>
+    <color name="sort_icon_tint">@color/cardview_dark_background</color>
+
+</resources>

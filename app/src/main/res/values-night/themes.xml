@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BirthdayReminders" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <drawable name="cake_icon">@drawable/cake_icon_dark</drawable>
+    <drawable name="timer_icon">@drawable/reminder_icon_dark</drawable>
+    <drawable name="sort_icon">@drawable/sort_icon_dark</drawable>
+    <color name="sort_icon_tint">@color/white</color>
+
+    <style name="ButtonStyle" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
